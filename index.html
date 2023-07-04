@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Tom's Jazz School</title>
 </head>
@@ -34,7 +34,7 @@
         <section class="courses-section">
             <div class="cards">
 
-                <article>
+                <article class="card">
                     <img src="./assets/piano.png" alt="ícone de teclas de piano">
                     <strong>Piano popular</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -43,7 +43,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="./assets/clef.png" alt="ícone da clave de sol">
                     <strong>Teoria musical</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -52,7 +52,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="./assets/sax.png" alt="ícone de saxofone">
                     <strong>Sax alto</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -61,7 +61,7 @@
                     </a>
                 </article>
     
-                <article>
+                <article class="card">
                     <img src="./assets/drums.png" alt="ícone de bateria">
                     <strong>Bateria</strong>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliqua.</p>
@@ -71,27 +71,28 @@
                 </article>
             </div>
 
-            <h2>E <span class="text-primary">vários</span> outros!</h2>
-            <a href="#">Conhecer os cursos</a>
+            <h2 class="text-center">E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer os cursos</a>
         </section>
     </main>
 
     <footer>
         <div>
-            <img src="./assets/logo.svg" alt="Tom's jazz school">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="./assets/logo.svg" alt="Tom's jazz school" class="mb-1 mt-1">
+            <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <nav>
+        <nav class="mb-2">
             <a href="#">Inicio</a>
             <a href="#">Cursos</a>
             <a href="#">Eventos</a>
             <a href="#">Contato</a>
         </nav>
 
-        <form>
-            <label for="email">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+        <form class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+            <input class="mb-1" type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+            <button class="button mb-2">Quero receber</button>
         </form>
 
     </footer>
